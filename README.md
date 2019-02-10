@@ -5,10 +5,11 @@
 Si on respecte l'arborescence décrite dans le lien windows
 de l'installation nightwatch du mail. Pour exécuter mes tests il faut :
 
-1. Copier le répertoire envoyé en PJ
-(PeopleDocTest) dans : C:\dev\nightwatch\node_modules\nightwatch
+1. Créer un répertoire qui se nomme "TestPeopleDoc" dans : C:\dev\nightwatch\node_modules\nightwatch
 
-2. Modifier le fichier de conf nightwatch.json :
+2. Copier les répertoires "objectPage" et "tests"
+
+3. Modifier le fichier de conf nightwatch.json :
 
 Il faut modifier les lignes suivantes :
 
@@ -20,6 +21,9 @@ par "page_objects_path" : ["../TestPeopleDoc/objectPage", "../examples/pages"],
 
 * "filter" : "../examples/unittests/*",        
 par "filter": ["../examples/tests","../TestPeopleDoc/tests"],
+
+
+**Note** Si vous ne souhaitez pas modifier le fichier de config. Il faut copier tous les fichiers du répertoire "tests" dans le dossier "examples/tests" et le fichier du répertoire "objectPage" dans le dossier "examples/pages"
 
 ## Exécution
 

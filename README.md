@@ -27,6 +27,8 @@ par "filter": ["../examples/tests","../TestPeopleDoc/tests"],
 
 ## Exécution
 
+Se placer dans le répertoire : C:\dev\nightwatch\node_modules\nightwatch\bin
+
 ### XKCD
 * _Commande_ : node .\nightwatch -e chrome -g xkcd
 
@@ -56,7 +58,8 @@ par "filter": ["../examples/tests","../TestPeopleDoc/tests"],
     En tant qu'utilisateur, je me rends sur l'adresse 'https://www.oui.sncf/';    
     En tant qu'utilisateur, je saisie une ville de départ dans la recherche;    
     En tant qu'utilisateur, je saisie une ville d'arrivée dans la recherche;    
-    En tant qu'utilisateur, je saisie une date et heure dans la recherche.   
+    En tant qu'utilisateur, je saisie une date et heure dans la recherche.
+    En tant qu'utilisateur, je valide ma recherche.   
     En tant qu'utilisateur, je vérifie que le train de 16H30 est bien affiché. 
     
 ## Infos tests
